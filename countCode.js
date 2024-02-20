@@ -21,4 +21,4 @@ function countCode(letter, data) {
 
   const letter = "i";
   const result = countCode(letter, data);
-  console.log("${letter}": ${result});
+  console.log("${letter}: ${result}");
