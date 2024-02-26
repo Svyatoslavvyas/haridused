@@ -11,5 +11,5 @@ function countCode(letter) {
     }
 }
 
-countdata("i");
+countCode("i");
 console.log(letterCount);
