@@ -3,8 +3,10 @@ const data = ["FWmcfgAWxe","KnFJXGcACq","cCYApSPiX0","iHwbq2giBx","X5Ebl6sjLf","
 
 function countCode(letter) { 
     for (let i = 0; i < data.length; i++) {
-            if (data[i][j] === letter) {
+      if(data[i]===letter) {       
                 letterCount++;
+
+
         }
     }
 }
