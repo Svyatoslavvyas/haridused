@@ -6,8 +6,9 @@ function countCode(letter) {
         if (data[i].startsWith(letter)) {
             letterCount++;
         }
-    }
-}
+    } 
+    console.log(letterCount);
+    letterCount = 0;
+} 
 
 countCode("i");
-console.log(letterCount);
