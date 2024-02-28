@@ -7,7 +7,7 @@ function countCode(letter) {
             letterCount++;
         }
     } 
-    return console.log(letterCount);
+    return letterCount;
 } 
 
 countCode("i");
